@@ -1,0 +1,8 @@
+
+<project name="wegeneric-build"  default="build"  basedir=".">
+  <target name="build">
+    <jar jarfile="ninj5.jar" basedir="bin"/>
+    <copy file="ninj5.jar" todir="build"/>
+    <delete file="ninj5.jar"/>
+  </target>  
+</project>
